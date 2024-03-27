@@ -9,7 +9,9 @@ let bg = 0; //controls bg color
 let birthdaymessage = false; //my message control
 
 function setup() {
-  createCanvas(400, 400);
+ var canvas = createCanvas(400, 400);
+
+ canvas.parent('project');
 }
 
 function draw() {

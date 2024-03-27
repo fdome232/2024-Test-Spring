@@ -1,7 +1,12 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  width:75%;
 }
 canvas {
+  margin: auto;
   display: block;
 }
